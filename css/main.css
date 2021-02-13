@@ -230,11 +230,11 @@ header:hover .owl-next {
 }
 
 .sliders .slider .owl-item.active h2 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    animation-delay: 0.3s;
+    animation-delay: 0.5s;
 }
 
 .sliders .slider .owl-item.active h2.one {
@@ -316,11 +316,11 @@ header:hover .owl-next {
 }
 
 .my-sliders .my-slider .owl-item.active h3 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+-webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    animation-delay: 0.3s;
+    animation-delay: 0.5s;
 }
 
 .my-sliders .my-slider .owl-item.active h3.one {
@@ -433,11 +433,11 @@ header:hover .owl-next {
 }
 
 .last-sliders .last-slider .owl-item.active h4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+-webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    animation-delay: 0.3s;
+    animation-delay: 0.5s;
 }
 
 .last-sliders .last-slider .owl-item.active h4.one {
