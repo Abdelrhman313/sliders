@@ -19,8 +19,34 @@
 </head>
 
 <body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="navbar-collapse collapse" id="menu">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link" data-class=".header">First Slider</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link" data-class=".slider-2">Second Slider</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link" data-class=".slider-3">Third Slider</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link" data-class=".slider-4">Fourth Slider</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- First => Slider 5 Image-->
-    <header>
+    <header class="header">
         <div class="container">
             <div class="owl-carousel owl-theme first-carousel">
                 <div class="item">
@@ -81,9 +107,11 @@
             </div>
         </div>
     </header>
-
+    
+    
+    
     <!-- Second => 2 slider 3 image in each one-->
-    <div class="sliders">
+    <div class="sliders slider-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -163,7 +191,7 @@
     </div>
 
     <!-- Third => 3 slider 3 image in each one-->
-    <div class="my-sliders">
+    <div class="my-sliders slider-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -279,7 +307,7 @@
     </div>
     
     <!-- fourth => 4 slider 3 image in each one-->
-    <div class="last-sliders">
+    <div class="last-sliders slider-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
