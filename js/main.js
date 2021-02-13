@@ -1,4 +1,14 @@
 $(()=>{
+    // Navigation
+    links = [...$('nav ul li a')];
+    links.forEach(link => {
+        link.addEventListener('click', ()=>{
+            target = link.dataset.class;
+            section = document.querySelector(target);            
+            section.scrollIntoView({behavior: "smooth"});
+        });
+    });
+
     // First slider
     $('header .owl-carousel').owlCarousel({
         loop:true,
@@ -7,7 +17,7 @@ $(()=>{
         nav:true,
         mouseDrag:false,
         autoplay:true,
-        animateOut: 'slideOutUp',
+        animateOut: 'hinge',
         smartSpeed: 450,
         responsive:{
             0:{
@@ -63,7 +73,7 @@ $(()=>{
                 items:1
             }
         },
-        animateOut: 'flipOutX',
+        animateOut: 'slideOutUp',
     });
 
     // Third sliders
@@ -107,7 +117,7 @@ $(()=>{
                 items:1
             }
         },
-        animateOut: 'bounceOutUp',
+        animateOut: 'rollOut',
     });
     $('.my-sliders .my-slider #sixth-anim').owlCarousel({
         loop:true,
@@ -160,7 +170,7 @@ $(()=>{
         nav:false,
         mouseDrag:false,
         autoplay:true,
-        animateOut: 'hinge',
+        animateOut: 'rotateOutDownLeft',
         smartSpeed: 450,
         responsive:{
             0:{
@@ -181,7 +191,7 @@ $(()=>{
         nav:false,
         mouseDrag:false,
         autoplay:true,
-        animateOut: 'rollOut',
+        animateOut: 'lightSpeedOut',
         smartSpeed: 450,
         responsive:{
             0:{
